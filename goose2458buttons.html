@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Unified Buttons</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+
+  <link rel="stylesheet" href="css/style.css">
+ <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+
+  <script src="js/modernizr.custom.04595.js"></script>  
+</head>
+
+<body>
+
+<h1> Style Guide </h1>
+<h2>Unified buttons on dialog boxes and auxiliary buttons</h2>
+<section class="bigContainer">
+  <div class="rows">
+    <div class="leftCol">inactive button</div>
+    <div class="rightCol"><div class="buttons inactiveButton" href="">Submit</a></div></div>
+  </div>
+  <div class="rows">
+    <div class="leftCol">active button</div>
+    <div class="rightCol"><div class="buttons activeButton">Submit</div></div>
+  </div>
+  <div class="rows">
+    <div class="leftCol">inactive eval button</div>
+    <div class="rightCol"><div class="buttons inactiveButton evalButton" >* Delete</div></div>
+  </div>  
+  <div class="rows">
+    <div class="leftCol">active button hover state</div>
+    <div class="rightCol"><div class="buttons activeButton hoverButton">Submit</div></div>
+  </div> 
+  <div class="rows">
+    <div class="leftCol">Primary and secondary buttons together, with 20px apart, the primary button is on the right</div>
+    <div class="rightCol">
+      <div class="buttons secondaryOnDark">Cancel</div>
+      <div class="buttons activeButton">Delete</div>
+    </div>
+  </div>
+  <div class="rows">
+    <div class="leftCol">Cancel / Ok</div>
+    <div class="rightCol">
+      <div class="buttons secondaryOnDark">Cancel</div>
+      <div class="buttons activeButton">Ok</div>
+    </div>
+  </div>
+  <div class="rows">
+    <div class="leftCol">Save / Ok</div>
+    <div class="rightCol">
+      <div class="buttons secondaryOnDark">Cancel</div>
+      <div class="buttons activeButton">Save</div>
+    </div>
+  </div>
+  <div class="rows">
+    <div class="leftCol">Submit / Ok</div>
+    <div class="rightCol">
+      <div class="buttons secondaryOnDark">Cancel</div>
+      <div class="buttons activeButton">Submit</div>
+    </div>
+  </div>
+  <div class="rows">
+    <div class="leftCol">Clear All / Done</div>
+    <div class="rightCol">
+      <div class="buttons secondaryOnDark">Clear All</div>
+      <div class="buttons activeButton">Done</div>
+    </div>
+  </div>
+  <div class="rows">
+    <div class="leftCol">Deny / Approve</div>
+    <div class="rightCol">
+      <div class="buttons secondaryOnDark">Deny</div>
+      <div class="buttons activeButton">Approve</div>
+    </div>
+  </div>
+  <div class="rows">
+    <div class="leftCol">smaller auxiliary buttons</div>
+    <div class="rightCol">
+      <div class="buttons auxButton">Add</div>
+      <div class="buttons auxButton">Edit</div>
+      <div class="buttons auxButton">Copy</div>
+      <div class="buttons auxButton">Delete</div>
+    </div>
+  </div>
+  
+</section>
+<section class="bigContainer">
+  <div class="title">Demo</div>
+  <div class="rows">
+    <div class="leftCol">Button is activated by user action</div>
+    <div class="rightCol">
+          <span class="Col2">
+            <input id ="checkbox1" type="checkbox" value="fakeData" class="css-checkbox" />
+                      <label for="checkbox1" class="css-label">click to enable the button</label>
+          </span>
+          <span class="col3">
+                <div id="testButton" class="buttons inactiveButton">Delete</div>
+          </span>
+    </div>
+  </div>
+  <div class="rows">
+    <div class="leftCol">Cancel button on light background</div>
+    <div class="rightCol">
+          <div class="whiteBox">
+             <div class="okcancel">
+               <span class="buttons secondaryOnLight">Cancel</span>
+               <span class="buttons activeButton">Save</span>
+             </div>
+          </div>
+    </div>
+  </div>
+</section>
+
+  <footer role="contentinfo"></footer>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
+  <script src="js/scripts.js"></script>   
+
+</body>
+
+</html>

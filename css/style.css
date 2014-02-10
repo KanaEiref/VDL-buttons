@@ -1,0 +1,259 @@
+/*=================================*/
+/* 
+/*===================================*/
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  width: 100%;
+  margin: 0 0;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.3;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  background-color: #393939; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  color: #33ccff;
+  font-size: 2.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 15px; }
+
+h2 {
+  color: #33ccff;
+  font-size: 1.8rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  text-align: center; }
+
+.bigContainer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 960px;
+  padding-left: auto;
+  padding-right: auto;
+  clear: both; }
+
+.rows {
+  height: auto;
+  min-height: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  clear: both; }
+
+.leftCol {
+  font-weight: 300px;
+  width: 30%;
+  color: #eeeeee;
+  float: left;
+  padding-left: 20px;
+  vertical-align: center; }
+
+.rightCol {
+  width: 50%;
+  float: left;
+  padding-left: 20px;
+  vertical-align: middle; }
+
+.col2 {
+  display: inline-block;
+  width: 100px;
+  padding-left: 10px;
+  float: left; }
+
+.col3 {
+  display: inline-block;
+  width: 200px;
+  float: left; }
+
+.buttons {
+  display: inline-block;
+  border-radius: 3px;
+  height: 30px;
+  width: 84px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-family: helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  transition: background-color 1s ease-in; }
+
+.buttons:hover {
+  cursor: pointer;
+  cursor: hand; }
+
+.activeButton {
+  font-family: helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #72a534;
+  vertical-align: center;
+  text-align: center; }
+
+.activeButton:hover, .auxButton:hover {
+  color: #fff;
+  background-color: #5a842e; }
+
+.inactiveButton {
+  font-family: helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  border: solid 1px #999;
+  background-color: #666;
+  color: #cccccc; }
+
+.evalButton {
+  font-style: italic; }
+
+.hoverButton {
+  background-color: #5a842e; }
+
+.secondaryOnDark {
+  border: solid 1px #bbb;
+  color: white;
+  margin-right: 20px; }
+
+.auxButton {
+  display: inline;
+  font-family: helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 4px 19px;
+  background-color: #72a534; }
+
+.whiteBox {
+  background-color: #f6f9fc;
+  width: 500px;
+  height: 100px;
+  position: relative; }
+
+.title {
+  color: #33ccff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px black;
+  background-color: #0d0d0d;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  margin-bottom: 10px; }
+
+footer {
+  width: 1000px;
+  height: 300px; }
+
+label.css-label {
+  color: #eee; }
+
+input[type=checkbox].css-checkbox {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; }
+
+input[type=checkbox].css-checkbox + label.css-label {
+  padding-left: 20px;
+  height: 15px;
+  display: inline-block;
+  line-height: 15px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  font-size: 15px;
+  vertical-align: middle;
+  cursor: pointer; }
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+  background-position: 0 -15px; }
+
+.css-label {
+  background-image: url("../images/lite-green-check.png"); }
+
+.secondaryOnLight {
+  color: #47525d;
+  border: 1px solid #bbb;
+  margin-right: 20px; }
+
+.okcancel {
+  position: absolute;
+  bottom: 30px;
+  right: 30px; }
+
+/* Helper Classes =============================================================================== */
+.hide {
+  display: none !important;
+  visibility: hidden; }
+
+.show {
+  display: block !important; }
+
+.visually-hide {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.invisible {
+  visibility: hidden; }
